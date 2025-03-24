@@ -6,7 +6,7 @@ const Account = () => {
     <div className='w-full h-17 flex pl-4 text-[18px] items-center bg-white'>Account Settings</div>
     <div className='px-5'>
       <div className='flex'>
-        <img src='./src/assets/Ellipse.png'  alt="img" />
+        <img src='/Ellipse.png'  alt="img" />
         <div className='flex-col'>
           <p className='font-medium pl-5'>Marry Doe</p>
           <p className='pl-5'>Marry@Gmail.Com</p>
