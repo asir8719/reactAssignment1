@@ -4,12 +4,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: max-content;
 }
 
 body {
     width: 375px;
-    height: 812px;
+    height: 100vh;
     background: #F7F8F9;
     position: relative;
     border: 2px solid #111;
