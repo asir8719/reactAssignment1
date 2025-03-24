@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body {
+    width: 375px;
+    height: 812px;
+    background: #F7F8F9;
+    position: relative;
+    border: 2px solid #111;
+    font-family: 'Rubik';
+}
+
+li:hover {
+    transform: scale(1.4);
+    color: #111;
+    transition: transform .3s ease-in-out;
+}
+
+.hmh1 {
+    position: absolute;
+    top: 549px;
+    left: 20px;
+    width: 231px;
+    height: 33px;
+    text-align: left;
+    font: medium Rubik;
+    font-size: 28px;
+    letter-spacing: 0px;
+    color: #1D2226;
+    opacity: 1;
+}
+
+.hmp {
+    position: absolute;
+    top: 592px;
+    left: 20px;
+    width: 232px;
+    height: 48px;
+    text-align: left;
+    font: normal 18px Rubik;
+    letter-spacing: 0px;
+    color: #1D2226;
+    opacity: 0.6;
+}
+
+.hmbtn1 {
+    position: absolute;
+    top: 669px;
+    left: 20px;
+    width: 335px;
+    height: 46px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 17px;
+    background: #6C25FF 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.hmbtn2 {
+    position: absolute;
+    font-weight: 500;
+    font-size: 17px;
+    color: #1D2226;
+    top: 725px;
+    left: 20px;
+    width: 335px;
+    height: 46px;
+    background: #6C25FF4B 0% 0% no-repeat padding-box; 
+    border-radius: 6px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.rgstrh1 {
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    width: 188px;
+    height: 69px;
+    text-align: left;
+    font: normal normal 500 28px Rubik;
+    letter-spacing: 0px;
+    color: #1D2226;
+    opacity: 1;
+}
+
+.rgstrfrm {
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+
+    input {
+        width: 335px;
+        height: 40px;
+        border: 1px solid #cbcbcb;
+        border-radius: 6px;
+        opacity:1;
+        z-index: 111;
+        padding: .5rem;
+    }
+
+    .label {
+        position: absolute;
+        text-align: left;
+        font: 400 15px Rubik;
+        opacity: 1;
+        z-index: 1111;
+        color: #6C25FF;
+        background-color: #F7F8F9;
+        padding: 0 5px;
+        transform: translate(10px, -10px);
+    }
+}
+
+.lgnbtn1 {
+    position: absolute;
+    top: 345px;
+    left: 20px;
+    width: 335px;
+    height: 46px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 17px;
+    background: #cbcbcb 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    opacity: 1;
+    cursor: pointer;
+}
